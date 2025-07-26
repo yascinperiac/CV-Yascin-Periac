@@ -1,162 +1,158 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>CV Yascin Periac</title>
-   <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Yascin Periac</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <img src="images/photo-cv.JPG" alt="Photo de Yascin Periac" class="profile-photo">
-        <h1>Yascin Periac</h1>
-        <button id="dark-toggle" aria-label="Mode Sombre">🌙</button>
-        <p>Fraiseur CN et Professeur de danse</p>
-        <button id="burger" aria-label="Menu">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-    </header>
+  <header>
+    <img src="images/photo-cv.jpg" alt="Photo de Yascin Periac" class="profile-photo">
+    <h1>Yascin Periac</h1>
+    <button id="dark-toggle" aria-label="Mode Sombre">🌙</button>
+    <p>Fraiseur CN et Professeur de danse</p>
+    <button id="burger" aria-label="Menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
 
-    <main id="main-sections">
-      <section id="apropos">
-        <h2 class="toggle-header">À propos de moi</h2>
-        <div class="toggle-content apropos-wrapper">
-          <div class="apropos-photo">
-            <img src="images/a-propos.JPG" alt="Photo de Yascin" />
-          </div>
-          <div class="apropos-texte">
-            <p id="typed-text">Je m'appelle Yascin. Fraiseur CN de métier, passionné par la mécanique de précision autant que par le mouvement libre à travers la danse.</p>
-            <p>💻 Je développe aussi des projets web et j’explore le monde du trading avec rigueur.</p>
-            <p>🎯 Mon objectif : allier discipline et passion pour bâtir ma liberté, en vivant de ce que j’aime créer.</p>
-          </div>
+  <main id="main-sections">
+
+    <section id="apropos">
+      <h2 class="toggle-header">À propos de moi</h2>
+      <div class="toggle-content apropos-wrapper">
+        <div class="apropos-photo">
+          <img src="images/a-propos.jpg" alt="Photo de Yascin">
         </div>
-      </section>
-
-      <section id="competences">
-        <h2 class="toggle-header">Compétences</h2>
-        <div class="toggle-content">
-          <ul>
-            <li><a href="#" id="open-gallery-fraisage">FRAISAGE CN</a></li>
-            <li><a href="#" id="open-gallery-breakdance">BREAKDANCE</a></li>
-            <li><a href="http://127.0.0.1:5500/index.html" target="_blank"> HTML - CSS - JAVASCRIPT</a></li>
-          </ul>
-        </div>
-      </section>
-
-      <section id="projets">
-        <h2 class="toggle-header">Projets</h2>
-        <div class="toggle-content">
-          <ul>
-            <li>Site portfolio personnel en HTML/CSS</li>
-            <li>Développement d'une application de gestion de finance</li>
-          </ul>
-        </div>
-      </section>
-
-      <section id="parcours">
-        <h2 class="toggle-header">Parcours</h2>
-        <div class="toggle-content">
-          <ul>
-            <li><a href="images/relevé de note bts.PDF" target="_blank">BTS CPRP Septembre 2020 - Juillet 2022</a></li>
-            <li><a href="images/cqpm regleur.jpg" target="_blank">CQPM Fraiseur Septembre 2019 - Juillet 2020</a></li>
-            <li><a href="images/BACCALAUREAT PROFESSIONNEL.pdf" target="_blank">BAC PRO technicien d'usinage septembre 2018 - Juin 2019</a></li>
-            <li><a href="https://www.renaultgroup.com/groupe/implantations/usine-sandouville" target="_blank">Monteur chez Renault Sandouville Septembre 2017 - Août 2019</a></li>
-          </ul>
-        </div>
-      </section>
-
-      <section id="contact">
-        <h2 class="toggle-header">Contact</h2>
-        <div class="toggle-content">
-          <p>
-            <a href="mailto:yascindu76@gmail.com" target="_blank">
-              <img src="https://www.svgrepo.com/show/303161/gmail-icon-logo.svg" alt="Email" class="contact-icon">
-            </a>
-          </p>
-          <p>
-            <a href="https://www.linkedin.com/in/yascin-periac-5800b116b/" target="_blank">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" class="contact-icon">
-            </a>
-          </p>
-        </div>
-      </section>
-    </main>
-
-    <!-- Galerie modale fraisage CN -->
-    <div id="gallery-modal-fraisage" class="modal">
-      <div class="modal-content">
-        <span class="close" id="close-gallery-fraisage">&times;</span>
-        <h3>Galerie – Fraisage CN</h3>
-        <div class="gallery">
-          <img src="images/IMG_2065.jpg" alt="Fraisage 1" class="thumbnail">
-          <img src="images/IMG_2291.jpg" alt="Fraisage 2" class="thumbnail">
-          <img src="images/IMG_2777.jpg" alt="Fraisage 3" class="thumbnail">
-          <img src="images/IMG_3848.jpg" alt="Fraisage 4" class="thumbnail">
-          <img src="images/IMG_4571.jpg" alt="Fraisage 5" class="thumbnail">
-          <img src="images/IMG_4945.jpg" alt="Fraisage 6" class="thumbnail">
-          <img src="images/IMG_5296.jpg" alt="Fraisage 7" class="thumbnail">
-          <img src="images/IMG_9964.jpg" alt="Fraisage 8" class="thumbnail">
-          <video controls class="thumbnail">
-            <source src="videos/IMG_3982.MOV" type="video/mp4">
-            Votre navigateur ne supporte pas la vidéo.
-          </video>
-          <video controls class="thumbnail">
-            <source src="videos/IMG_5321.MOV" type="video/mp4">
-            Votre navigateur ne supporte pas la vidéo.
-          </video>
+        <div class="apropos-texte">
+          <p id="typed-text">Je m'appelle Yascin. Fraiseur CN de métier, passionné par la mécanique de précision autant que par le mouvement libre à travers la danse.</p>
+          <p>💻 Je développe aussi des projets web et j’explore le monde du trading avec rigueur.</p>
+          <p>🎯 Mon objectif : allier discipline et passion pour bâtir ma liberté, en vivant de ce que j’aime créer.</p>
         </div>
       </div>
-    </div>
+    </section>
 
-    <!-- Galerie modale Breakdance -->
-    <div id="gallery-modal-breakdance" class="modal">
-      <div class="modal-content">
-        <span class="close" id="close-gallery-breakdance">&times;</span>
-        <h3>Galerie – Breakdance</h3>
-        <div class="gallery">
-          <video controls class="thumbnail">
-            <source src="videos/Breakdance.mov" type="video/mp4">
-            Votre navigateur ne supporte pas la vidéo.
-          </video>
-          <video controls class="thumbnail">
-            <source src="videos/Breakdance2.mov" type="video/mp4">
-            Votre navigateur ne supporte pas la vidéo.
-          </video>
-          <video controls class="thumbnail">
-            <source src="videos/Breakdance3.mov" type="video/mp4">
-            Votre navigateur ne supporte pas la vidéo.
-          </video>
-        </div>
+    <section id="competences">
+      <h2 class="toggle-header">Compétences</h2>
+      <div class="toggle-content">
+        <ul>
+          <li><a href="#" id="open-gallery-fraisage">FRAISAGE CN</a></li>
+          <li><a href="#" id="open-gallery-breakdance">BREAKDANCE</a></li>
+          <li><a href="https://yascinperiac.github.io/CV-Yascin-Periac/" target="_blank">HTML - CSS - JAVASCRIPT</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projets">
+      <h2 class="toggle-header">Projets</h2>
+      <div class="toggle-content">
+        <ul>
+          <li>Site portfolio personnel en HTML/CSS</li>
+          <li>Développement d'une application de gestion de finance</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="parcours">
+      <h2 class="toggle-header">Parcours</h2>
+      <div class="toggle-content">
+        <ul>
+          <li><a href="images/relevé de note bts.pdf" target="_blank">BTS CPRP Septembre 2020 - Juillet 2022</a></li>
+          <li><a href="images/cqpm regleur.jpg" target="_blank">CQPM Fraiseur Septembre 2019 - Juillet 2020</a></li>
+          <li><a href="images/BACCALAUREAT PROFESSIONNEL.pdf" target="_blank">BAC PRO technicien d'usinage septembre 2018 - Juin 2019</a></li>
+          <li><a href="https://www.renaultgroup.com/groupe/implantations/usine-sandouville" target="_blank">Monteur chez Renault Sandouville Septembre 2017 - Août 2019</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="toggle-header">Contact</h2>
+      <div class="toggle-content">
+        <p>
+          <a href="mailto:yascindu76@gmail.com" target="_blank">
+            <img src="https://www.svgrepo.com/show/303161/gmail-icon-logo.svg" alt="Email" class="contact-icon">
+          </a>
+        </p>
+        <p>
+          <a href="https://www.linkedin.com/in/yascin-periac-5800b116b/" target="_blank">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" class="contact-icon">
+          </a>
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Galerie modale fraisage -->
+  <div id="gallery-modal-fraisage" class="modal">
+    <div class="modal-content">
+      <span class="close" id="close-gallery-fraisage">&times;</span>
+      <h3>Galerie – Fraisage CN</h3>
+      <div class="gallery">
+        <img src="images/IMG_2065.jpg" alt="Fraisage 1" class="thumbnail">
+        <img src="images/IMG_2291.jpg" alt="Fraisage 2" class="thumbnail">
+        <img src="images/IMG_2777.jpg" alt="Fraisage 3" class="thumbnail">
+        <img src="images/IMG_3848.jpg" alt="Fraisage 4" class="thumbnail">
+        <img src="images/IMG_4571.jpg" alt="Fraisage 5" class="thumbnail">
+        <img src="images/IMG_4945.jpg" alt="Fraisage 6" class="thumbnail">
+        <img src="images/IMG_5296.jpg" alt="Fraisage 7" class="thumbnail">
+        <img src="images/IMG_9964.jpg" alt="Fraisage 8" class="thumbnail">
+        <video controls class="thumbnail">
+          <source src="videos/IMG_3982.MOV" type="video/mp4">
+        </video>
+        <video controls class="thumbnail">
+          <source src="videos/IMG_5321.MOV" type="video/mp4">
+        </video>
       </div>
     </div>
+  </div>
 
-    <!-- Modale plein écran image -->
-    <div id="image-modal" class="modal">
-      <span id="close-image-modal" class="close">✕</span>
-      <img id="modal-img" src="" alt="Image en plein écran" class="modal-img">
-      <span id="prev-image" class="arrow">⬅</span>
-      <span id="next-image" class="arrow">➡</span>
+  <!-- Galerie Breakdance -->
+  <div id="gallery-modal-breakdance" class="modal">
+    <div class="modal-content">
+      <span class="close" id="close-gallery-breakdance">&times;</span>
+      <h3>Galerie – Breakdance</h3>
+      <div class="gallery">
+        <video controls class="thumbnail">
+          <source src="videos/Breakdance.mov" type="video/mp4">
+        </video>
+        <video controls class="thumbnail">
+          <source src="videos/Breakdance2.mov" type="video/mp4">
+        </video>
+        <video controls class="thumbnail">
+          <source src="videos/Breakdance3.mov" type="video/mp4">
+        </video>
+      </div>
     </div>
+  </div>
 
-    <!-- Modale plein écran vidéo -->
-    <div id="video-modal" class="modal">
-      <span id="close-video-modal" class="close">✕</span>
-      <video id="modal-video" controls class="modal-video">
-        <source src="" type="video/mp4">
-        Votre navigateur ne supporte pas la vidéo.
-      </video>
-      <span id="prev-video" class="arrow">⬅</span>
-      <span id="next-video" class="arrow">➡</span>
-    </div>
+  <!-- Modale image plein écran -->
+  <div id="image-modal" class="modal">
+    <span id="close-image-modal" class="close">✕</span>
+    <img id="modal-img" src="" alt="Image en plein écran" class="modal-img">
+    <span id="prev-image" class="arrow">⬅</span>
+    <span id="next-image" class="arrow">➡</span>
+  </div>
 
-    <footer>
-        <p>&copy; 2025 Yascin Periac. Tous droits réservés.</p>
-    </footer>
+  <!-- Modale vidéo plein écran -->
+  <div id="video-modal" class="modal">
+    <span id="close-video-modal" class="close">✕</span>
+    <video id="modal-video" controls class="modal-video">
+      <source src="" type="video/mp4">
+    </video>
+    <span id="prev-video" class="arrow">⬅</span>
+    <span id="next-video" class="arrow">➡</span>
+  </div>
 
-    <script src="script.js"></script>
+  <footer>
+    <p>&copy; 2025 Yascin Periac. Tous droits réservés.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
 
